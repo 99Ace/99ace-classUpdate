@@ -1,7 +1,21 @@
 @import "bootstrap/scss/bootstrap";
 
 $primary : red;
+$padding-base : 1rem;
+main {
+    background-color: turquoise;
+    min-height: 50vh;
+    position: relative;
+    padding: $padding-base;
+}
 
-body {
-    background-color: $primary;
+.callout {
+    background-color: burlywood;
+    min-width : 300px;
+    max-width: 80%;
+    padding: $padding-base;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
 }

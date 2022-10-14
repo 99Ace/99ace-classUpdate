@@ -1,8 +1,21 @@
-import './scss/style.scss';
+import Footer from "./components/Footer";
+import Landing from "./components/Landing";
+import Navbar from "./components/Navbar";
+import "./scss/style.scss";
 
 function App() {
   return (
-    <h1 className="text-light">Welcome to 99Ace World !</h1>
+    <>
+      {/* Navbar  */}
+      <Navbar />
+
+      {/* hero-image */}
+      <Landing />
+
+      {/* footer */}
+      <Footer />
+      <div></div>
+    </>
   );
 }
 
