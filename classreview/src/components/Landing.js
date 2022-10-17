@@ -7,26 +7,26 @@ const Landing = () => {
         {/* Login Form  */}
         <div className="callout">
           <form id="login-form">
-            <div class="mb-3">
+            <div className="mb-3">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 name="username"
                 id="username"
                 placeholder="username"
               />
             </div>
-            <div class="mb-3">
+            <div className="mb-3">
               <input
                 type="password"
-                class="form-control"
+                className="form-control"
                 name="password"
                 id="password"
                 placeholder="username"
               />
             </div>
 
-            <button type="submit" class="btn btn-dark">
+            <button type="submit" className="btn btn-dark">
               Submit
             </button>
           </form>

@@ -1,8 +1,8 @@
-const Review = () => {
+const Activities = () => {
   return (
     <>
       <section>
-        <h2>Student Review</h2>
+        <h2>Student Activities</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -18,4 +18,4 @@ const Review = () => {
     </>
   );
 };
-export default Review;
+export default Activities;
